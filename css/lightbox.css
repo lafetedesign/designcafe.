@@ -14,7 +14,7 @@ body.lb-disable-scrolling {
 }
 
 .lightbox {
-  position: fixed;
+  position: absolute;
   left: 0;
   width: 100%;
   z-index: 10000;
@@ -22,8 +22,6 @@ body.lb-disable-scrolling {
   line-height: 0;
   font-weight: normal;
   outline: none;
-  top:50%!important;
-  transform: translateY(-50%);
 }
 
 .lightbox .lb-image {
@@ -176,7 +174,7 @@ body.lb-disable-scrolling {
 }
 
 .lb-data .lb-number {
-  display: none!important;
+  display: block;
   clear: left;
   padding-bottom: 1em;
   font-size: 12px;
@@ -204,5 +202,3 @@ body.lb-disable-scrolling {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
-
-
