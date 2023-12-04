@@ -122,6 +122,9 @@ body{
     line-height: 1.47;
     text-align: left;
 }
+#gallery{
+    margin-bottom: 71px;
+}
 .gallery-title{
     width: 245px;
     text-align: center;
@@ -499,7 +502,4 @@ bottom: 10px;
     transform: rotate(45deg) translateY(-50%);
     position: absolute;
     top: 50%;
-}
-.slick-list draggable{
-    margin-bottom: 71px;
 }
