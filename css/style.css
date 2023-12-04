@@ -133,7 +133,6 @@ body{
     display: flex;
 }
 .gallery-slider img{
-    margin-bottom: 71px;
     width: 20%;
 }
 .gallery-slider picture img{
@@ -497,7 +496,10 @@ bottom: 10px;
     border-right: solid 2px #ffffff;
     width: 15px;
     height: 15px;
-    transform: rotate(45deg);
+    transform: rotate(45deg) translateY(-50%);
     position: absolute;
-    top: 40%;
+    top: 50%;
+}
+.slick-list draggable{
+    margin-bottom: 71px;
 }
